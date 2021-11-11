@@ -16,9 +16,9 @@ public class Main {
         if (HumanAge > 20 && HumanAge < 45 && temperature > 20 && temperature < 30) {
             return "Можно идти гулять";
         } else if (HumanAge < 20 && temperature > 0 && temperature < 28) {
-            return "Можно идти гулять 2";
+            return "Можно идти гулять ";
         } else if (HumanAge > 45 && temperature > 10 && temperature < 25) {
-            return "Можно идти гулять 3";
+            return "Можно идти гулять ";
         } else {
             return "Оставайтесь дома";
         }
